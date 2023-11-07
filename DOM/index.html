@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- <div class="wrapper">
+        <h1>Hello Hanzala</h1>
+        <input type="text" class="t1" id="idt1" />
+        <button class="btn">Submit</button>
+
+    </div> -->
+
+    <ul class="firstUl">
+        <li class="childLI">Home</li>
+        <li class="childLI">About</li>
+        <li class="childLI">Contact</li>
+    </ul>
+    <button id="btn3">Add</button>
+
+    <!-- <div id="bulb"></div>
+    <button id="btn1">On</button>
+    <button id="btn2">OFF</button> -->
+
+
+</body>
+<script>
+    // let a = document.getElementsByClassName("t1");
+    // console.log(a);
+    // let b = document.getElementById("idt1")
+    // console.log(b);
+    // let c = document.querySelector("input")
+    // // console.log(c);
+
+    // let d = document.querySelector("h1")
+    // console.log(d.innerHTML);
+
+    // let button = document.querySelector("button");
+
+
+    // d.innerHTML = "Hello BRO"
+    // console.log(d.innerHTML);
+
+    // // Event Listner
+    // button.addEventListener("click", function () {
+    //     d.innerHTML = "HELLO MAT BOL"
+    //     d.style.color = "red"
+    //     d.style.backgroundColor = "black"
+
+    // })
+
+    // //bulb on 
+    // let bulb = document.querySelector("#bulb")
+    // let On = document.querySelector("#btn1")
+    // let Off = document.querySelector("#btn2")
+
+
+    // On.addEventListener("click", function () {
+    //     bulb.style.backgroundColor = "yellow"
+    // })
+    // Off.addEventListener("click", function () {
+    //     bulb.style.backgroundColor = "transparent"
+    // })
+
+
+    //Adding element
+
+    let element = document.createElement("li");
+    
+    element.className="childLI";
+    element.id = "ID"
+    element.innerHTML="Hello Hanzala"
+    
+    let ul = document.querySelector("ul")
+    // ul.appendChild(element);
+
+    let button3 = document.querySelector("#btn3")
+    // console.log(button3);
+    
+    button3.addEventListener("click", function () {
+        ul.appendChild(element);
+    })
+
+
+    //Replace Element
+
+    // let elem2 = document.createElement("h1");
+    // elem2.id = "elem2"
+    // let text = document.createTextNode("I am heading")
+    // elem2.append(text)
+    // element.replaceWith(elem2)
+    
+
+    
+</script>
+
+</html>

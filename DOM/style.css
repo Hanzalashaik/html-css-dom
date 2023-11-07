@@ -1,0 +1,23 @@
+#bulb {
+  border: 5px solid black;
+  border-radius: 450%;
+  height: 250px;
+  width: 300px;
+}
+
+#btn1 {
+  padding: 10px 20px;
+  margin: 20px;
+  font-size: 1rem;
+}
+#btn2 {
+  padding: 10px 20px;
+  margin: 20px;
+  font-size: 1rem;
+}
+
+#btn3{
+    padding: 10px 20px;
+  margin: 20px;
+  font-size: 1rem;
+}
