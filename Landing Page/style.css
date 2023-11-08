@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #111;
+}
+.container{
+    width: 80vw;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+header{
+    background: url("./images/background.jpg") no-repeat center;
+    background-size: cover;
+    padding: 1.5em 1.5em 1.2em 1.5em;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 9;
+    margin-bottom: 6em;
+}
+.logo img{
+    width: 8em;
+}
+
+ul{
+    list-style: none;
+}
+
+.menu li{
+    
+    display: inline-block;
+   margin: 0 0.8em;
+   font-size: 1.1em;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size:1.3rem;
+}
+
+.menu li a:hover{
+    color: #111;
+    transition: 0.4s;
+    
+}
+
+.menu li:hover{
+    transform: scale(1.1);
+}
+
+.section-1{
+    display: flex;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-bar{
+    font-size: 3rem;
+}
+.menu-bar:hover{
+    cursor: pointer;
+}
+
+.section-1 .header-content h1{
+    font-size:3rem
+}
+
+.section-1 .header-content .sub-heading{
+font-size:large;
+font-weight: 300;
+}
+
+.section-1 .header-content a{
+    margin-top: 3rem;
+    text-decoration: none;
+    font-size: larger;
+    
+}
