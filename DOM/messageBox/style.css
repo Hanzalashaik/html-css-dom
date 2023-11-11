@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25vh;
+}
+.container{
+    border: 3px solid rgb(0, 0, 0);
+    width: 50vw;
+    height: 30vh;
+}
+.container button{
+    font-size: larger;
+    padding: 10px;
+    border-radius: 5px;
+}
+.hidden-content{
+    display: none;
+}
+.hidden-content.reveal-btn{
+    display: block;
+}
